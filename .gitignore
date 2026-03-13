@@ -1,0 +1,27 @@
+# dbt
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Configurações sensíveis (opcional, dependendo de como maneja profiles.yml)
+# ~/.dbt/profiles.yml (normalmente fica fora do repo, mas caso alguém coloque aqui)
+profiles.yml
+.env
