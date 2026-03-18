@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -u setup_gold.py)",
+      "Bash(echo \"EXIT: $?\")"
+    ]
+  }
+}
