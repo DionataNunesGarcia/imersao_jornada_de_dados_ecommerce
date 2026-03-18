@@ -1,0 +1,20 @@
+## Case 2 - Customer Success Analysis and Pricing Optimization Dashboard
+---
+**Objective of this case study is to develop a customer success analysis, price optimization dashboard using Python’s Streamlit framework. The goal here will be an interactive web tool that provides insights into the data while also giving users interactivity for customizing their results and providing feedback on improvement opportunities in different pages (Vendas Page, Clientes页面，Preço优化Page).**
+  
+## Requirements ✔️   
+---    
+This case will require Python programming skills plus familiarity with Streamlit. It's recommended to have a basic understanding of SQL for data manipulation tasks in this project, but not mandatory. Also make sure you have access rights and the right environment setup on your machine such as Anaconda or Miniconda which provide environments management tools like conda among others.  
+   
+## Step-by-step guide 🏃‍♀️ 
+---    
+1) **Environment Setup:** Create a new environment using the following command in your terminal/command prompt `conda create -n cs_env python=3.8` and then activate it with  `conda activate cs_env`   . Make sure you have all necessary packages installed such as pandas, numpy etc depending on requirements of dataset 
+   2) **Data Loading:** Download the `customer-success-data.csv` file from any trusted source and load into a DataFrame in Python using Pandas or another suitable library based on your need for data manipulation tasks   .    3 ) **Development & Test Driving 🏃‍♀️:**
+    - Create `app.py` as the main entry point of Streamlit application, import all necessary libraries and load dataset into them  using appropriate pandas functions/methods or other methods based on your data structure   . Make sure you have a proper layout for these pages in streamlit with sections ie., top section should include filters (or select boxes), two sidebars corresponding to the Vendas Page, Clientes page and Preço optimizePage 
+    - Inside each of this three separate streams create respective dataframes based on your dataset using appropriate pandas methods/functions   .    4) **Testing:** Test all pages one by-one. Make sure you cover corner cases (e.g., if user selects incorrect filter in the Vendas page, check whether it correctly handles this and show correct error message to users).   5 )  If everything is done properly till here then prepare your dashboard layout according Streamlit's guidelines using sidebars for each of pages as you did on step (4), ensure that all plots are interactive.
+    6) **Prepare:** Once testing has been passed, the final version should be ready to use by users from streamlit’s local development server with command `streamlit run app.py`   .   7 ) Share or provide feedback on your Dashboard and consider additional functionalities if needed (e.g., allowing user uploading a csv file for data load, adding more filters in the Vendas page etc).
+    8) **Deployment:** Once final version is ready to go live share it with team members or provide feedback on users' experience and improvements using tools like Heroku/AWS based deployment.  Make sure all necessary documentation for anyone wanting to use this dashboard goes through, such as how they can run the app locally (with instructions), sharing files etc .
+    9) **Maintenance:** Once everything is deployed it becomes a part of customer success team's workflow so ensure regular updates and maintenance according their needs. If any bugs or issues arise during deployment then fix them before next deployments to avoid potential loss in data if something goes wrong  while users are using your dashboard .
+    This case provides an understanding on developing the Streamlit application with interactive web pages, allowing user interaction for customization of results and providing feedback through various enhancements. It is a hands-on practice that will help you understand how to manage complex data manipulation tasks in Python streamlite as well learning about some fundamental aspects like error handling etc., which are necessary skills required by any Data Scientist or Machine Learning Engineer .
+
+
